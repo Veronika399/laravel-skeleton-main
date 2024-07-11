@@ -1,0 +1,37 @@
+.link-secondary{
+    cursor: pointer;
+}
+
+.ti {
+    font-size: 20px;
+}
+
+a.ti:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .table-form{
+        display: block !important;
+    }
+
+    .table-form label{
+        display: block !important;
+        margin-bottom: 0.5em;
+    }
+
+    .table-form .d-inline-block{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .table-form .ms-3{
+        margin-left: 0 !important;
+    }
+
+    .table-form-search{
+        display: block !important;
+    }
+}
+
+
